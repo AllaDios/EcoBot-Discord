@@ -17,7 +17,11 @@ class Tips(commands.Cog):
             print(f"⚠️ Error al cargar consejos.json: {e}")
             return {}
 
-    @commands.command(name="tips", help="Muestra un consejo aleatorio o de una categoría específica.")
+    @commands.command(
+        name="tips",
+        help="Muestra un consejo aleatorio o de una categoría específica.\nCategorías disponibles: baño, cocina, jardín, reciclaje, compostaje",
+        aliases=["consejo"]
+    )
     async def tips(self, ctx, categoria: str = None):
         """Envia un consejo aleatorio o de una categoría específica."""
         if not self.consejos:
