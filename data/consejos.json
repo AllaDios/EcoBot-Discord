@@ -1,0 +1,93 @@
+{
+    "cocina": [
+        "Compra a granel y lleva tus propios envases reutilizables.",
+        "Evita productos envasados y prefiere alimentos frescos o con empaques biodegradables.",
+        "Usa servilletas de tela en lugar de papel desechable.",
+        "Haz compostaje con restos de frutas, verduras y cáscaras de huevo.",
+        "Elige utensilios reutilizables en lugar de desechables (cubiertos, platos y pajillas de bambú o metal).",
+        "Reduce el desperdicio de comida planificando tus comidas semanalmente.",
+        "Utiliza bolsas de tela para comprar frutas y verduras.",
+        "Reutiliza frascos de vidrio para almacenar especias, granos o salsas caseras.",
+        "Cocina en lotes grandes para reducir el uso de gas o electricidad.",
+        "Usa tapas al cocinar para reducir el consumo energético.",
+        "Prefiere electrodomésticos de bajo consumo energético.",
+        "Descongela los alimentos en la heladera en vez de usar microondas.",
+        "Evita abrir el horno innecesariamente mientras cocinas, pierde temperatura rápidamente."
+    ],
+    "baño": [
+        "Cambia el champú y jabón líquido por opciones en barra para evitar envases plásticos.",
+        "Opta por cepillos de dientes de bambú en lugar de los de plástico.",
+        "Usa esponjas naturales o de fibra vegetal en lugar de sintéticas.",
+        "Reutiliza frascos de vidrio para almacenar cremas o productos caseros.",
+        "Prueba toallas sanitarias reutilizables o copa menstrual para reducir residuos plásticos.",
+        "Cierra la llave del agua mientras te cepillas los dientes para ahorrar agua.",
+        "Dúchate en menos de 5 minutos para reducir el consumo de agua.",
+        "Usa desodorantes en barra o en envases reutilizables.",
+        "Cambia el papel higiénico tradicional por opciones recicladas o sin blanqueadores químicos.",
+        "Evita productos con microplásticos como algunos exfoliantes o pastas dentales.",
+        "Recoge agua de la ducha mientras se calienta y úsala para regar plantas.",
+        "Utiliza jabones y productos biodegradables para reducir la contaminación del agua."
+    ],
+    "oficina": [
+        "Evita imprimir documentos innecesarios y usa archivos digitales.",
+        "Usa bolígrafos recargables en lugar de desechables.",
+        "Lleva una botella de agua reutilizable en lugar de comprar botellas de plástico.",
+        "Sustituye los post-its por una pizarra pequeña o apps de notas.",
+        "Opta por carpetas y libretas hechas de papel reciclado.",
+        "Apaga los equipos electrónicos cuando no los estés usando.",
+        "Aprovecha la luz natural en lugar de encender lámparas.",
+        "Configura tu computadora para que entre en modo de ahorro de energía.",
+        "Reduce el uso de clips y opta por sujetadores de papel reutilizables.",
+        "Si necesitas imprimir, hazlo en doble cara para ahorrar papel."
+    ],
+    "hogar": [
+        "Usa focos LED que duran más y generan menos desechos.",
+        "Haz productos de limpieza caseros con vinagre, bicarbonato y limón para evitar químicos y envases plásticos.",
+        "Dona ropa, muebles y electrónicos en buen estado en lugar de tirarlos.",
+        "Repara en lugar de reemplazar electrodomésticos y otros objetos.",
+        "Evita las bolsas plásticas llevando siempre una bolsa reutilizable al hacer compras.",
+        "Usa regletas con interruptor para apagar todos los dispositivos cuando no los uses.",
+        "Coloca botellas llenas dentro del tanque del inodoro para reducir el consumo de agua en cada descarga.",
+        "Reutiliza el agua de lluvia para regar plantas o lavar pisos.",
+        "Planta árboles en tu patio o en espacios públicos para ayudar al medio ambiente.",
+        "Utiliza cortinas o persianas para regular la temperatura en lugar de depender del aire acondicionado."
+    ],
+    "movilidad": [
+        "Usa bicicleta o camina en trayectos cortos en lugar de usar el auto.",
+        "Si usas auto, comparte viajes con otras personas para reducir emisiones.",
+        "Usa transporte público en lugar de manejar solo.",
+        "Evita acelerar y frenar bruscamente para reducir el consumo de combustible.",
+        "Revisa la presión de tus neumáticos para optimizar el rendimiento del combustible.",
+        "Si es posible, trabaja o estudia desde casa para reducir el impacto ambiental del transporte.",
+        "Opta por vehículos eléctricos o híbridos si tienes la posibilidad.",
+        "Haz mantenimiento regular a tu vehículo para reducir emisiones contaminantes."
+    ],
+    "reciclaje": [
+        "Separa los residuos en orgánicos e inorgánicos para facilitar el reciclaje.",
+        "Investiga los puntos de reciclaje cercanos a tu hogar.",
+        "Lava y seca los envases antes de reciclarlos para evitar contaminaciones.",
+        "No mezcles vidrio roto con otros residuos reciclables.",
+        "Reutiliza frascos de vidrio en lugar de desecharlos.",
+        "Crea un sistema de reciclaje en casa con contenedores separados.",
+        "Usa apps que te ayuden a identificar qué materiales son reciclables.",
+        "Recicla electrónicos en centros especializados y no los tires con la basura común."
+    ],
+    "naturaleza": [
+        "Planta árboles y cuida las áreas verdes en tu comunidad.",
+        "Evita tirar basura en la calle, playas o parques.",
+        "Participa en jornadas de limpieza en espacios naturales.",
+        "Usa protector solar biodegradable para evitar contaminar el agua.",
+        "No compres productos hechos con piel de animales en peligro de extinción.",
+        "Crea un jardín en casa con plantas autóctonas que requieran menos agua.",
+        "Instala comederos para aves o casas para insectos polinizadores.",
+        "Respeta la fauna y flora en áreas naturales, no saques plantas ni molestes a los animales."
+    ],
+    "moda sostenible": [
+        "Compra ropa de segunda mano o intercambia con amigos.",
+        "Elige marcas de moda sostenible que usen materiales reciclados.",
+        "Evita la moda rápida y compra ropa de calidad que dure más tiempo.",
+        "Arregla tu ropa en lugar de desecharla por pequeños daños.",
+        "Dona la ropa que ya no uses en lugar de tirarla a la basura.",
+        "Usa detergentes ecológicos y lava la ropa con agua fría para reducir el impacto ambiental."
+    ]
+}
