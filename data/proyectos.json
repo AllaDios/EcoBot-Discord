@@ -1,0 +1,183 @@
+{
+    "projects": [
+      {
+        "id": 1,
+        "nombre": "Maceta con botella",
+        "descripcion": "Crea una maceta ecológica usando botellas plásticas",
+        "instrucciones": "Cortar la botella, hacer agujeros en la base, decorar y llenar con tierra y planta."
+      },
+      {
+        "id": 2,
+        "nombre": "Portalápices",
+        "descripcion": "Frasco o lata convertida en portalápices",
+        "instrucciones": "Lavar bien el recipiente, decorar y usar para guardar lápices."
+      },
+      {
+        "id": 3,
+        "nombre": "Lámpara con CD",
+        "descripcion": "Lámpara decorativa hecha con CDs reciclados",
+        "instrucciones": "Pegar CDs en forma circular y montar luces LED en el centro."
+      },
+      {
+        "id": 4,
+        "nombre": "Organizador de cables",
+        "descripcion": "Organizador hecho con tubos de cartón",
+        "instrucciones": "Pegar tubos sobre cartón, decorar y usar para cables."
+      },
+      {
+        "id": 5,
+        "nombre": "Compostera casera",
+        "descripcion": "Compostera hecha con un balde y restos orgánicos",
+        "instrucciones": "Hacer agujeros al balde, agregar residuos y remover cada 3 días."
+      },
+      {
+        "id": 6,
+        "nombre": "Billetera de cartón",
+        "descripcion": "Pequeña billetera hecha con cartón y cinta adhesiva",
+        "instrucciones": "Cortar cartón, doblar en forma de billetera, unir con cinta."
+      },
+      {
+        "id": 7,
+        "nombre": "Luminaria con frasco",
+        "descripcion": "Frasco decorado con luces LED como lámpara",
+        "instrucciones": "Introducir luces LED dentro del frasco y decorar por fuera."
+      },
+      {
+        "id": 8,
+        "nombre": "Estante con cajones de frutas",
+        "descripcion": "Estante casero usando cajones de madera",
+        "instrucciones": "Lijar y apilar los cajones, fijarlos con tornillos o pegamento fuerte."
+      },
+      {
+        "id": 9,
+        "nombre": "Alcancía con botella",
+        "descripcion": "Botella convertida en alcancía",
+        "instrucciones": "Hacer una ranura en la botella, decorar y empezar a ahorrar."
+      },
+      {
+        "id": 10,
+        "nombre": "Reloj con CD",
+        "descripcion": "Reloj decorativo hecho con un CD viejo",
+        "instrucciones": "Insertar un mecanismo de reloj en el centro y colgar en la pared."
+      },
+      {
+        "id": 11,
+        "nombre": "Juguete con cartón",
+        "descripcion": "Crear juguetes simples como autos o casas con cartón",
+        "instrucciones": "Cortar piezas, pegarlas con silicona y pintar."
+      },
+      {
+        "id": 12,
+        "nombre": "Florero con botella",
+        "descripcion": "Florero sencillo usando botella de vidrio o plástico",
+        "instrucciones": "Cortar si es necesario, decorar y usar para flores naturales o secas."
+      },
+      {
+        "id": 13,
+        "nombre": "Llavero con tapitas",
+        "descripcion": "Llavero hecho con tapitas metálicas o de plástico",
+        "instrucciones": "Perforar tapita, pasar un aro metálico y decorar."
+      },
+      {
+        "id": 14,
+        "nombre": "Jardinera vertical",
+        "descripcion": "Sistema de macetas vertical con botellas",
+        "instrucciones": "Cortar botellas, hacer agujeros, colgarlas en fila sobre una pared."
+      },
+      {
+        "id": 15,
+        "nombre": "Lapicera con sorbetes",
+        "descripcion": "Cilindro decorativo hecho con sorbetes pegados",
+        "instrucciones": "Pegar sorbetes sobre un recipiente y usar como lapicero."
+      },
+      {
+        "id": 16,
+        "nombre": "Cargador solar con lata",
+        "descripcion": "Soporte reciclado para un pequeño cargador solar",
+        "instrucciones": "Cortar la lata para que funcione como base reflectante para una celda solar."
+      },
+      {
+        "id": 17,
+        "nombre": "Juguete de cuerda",
+        "descripcion": "Juguete con tapa, hilo y botón",
+        "instrucciones": "Unir una tapa con un botón al centro con hilo grueso y girar."
+      },
+      {
+        "id": 18,
+        "nombre": "Bolsillo organizador de tela vieja",
+        "descripcion": "Organizador para colgar en pared con bolsillos",
+        "instrucciones": "Coser bolsillos en una tela grande y colgar en la pared."
+      },
+      {
+        "id": 19,
+        "nombre": "Pulsera con hilo y tapas",
+        "descripcion": "Pulsera hecha con hilo y tapitas recicladas",
+        "instrucciones": "Pasar hilo o elástico por las tapas perforadas, decorar."
+      },
+      {
+        "id": 20,
+        "nombre": "Marcos con cartón",
+        "descripcion": "Marco de fotos decorado con materiales reciclados",
+        "instrucciones": "Cortar cartón en forma de marco, decorar con papel, tapas, tela o botones."
+      }
+    ],
+    "materials": [
+      { "id": 1, "nombre": "Botella plástica" },
+      { "id": 2, "nombre": "Frasco de vidrio" },
+      { "id": 3, "nombre": "Lata" },
+      { "id": 4, "nombre": "CD" },
+      { "id": 5, "nombre": "Luces LED" },
+      { "id": 6, "nombre": "Tubo de cartón" },
+      { "id": 7, "nombre": "Cartón" },
+      { "id": 8, "nombre": "Balde" },
+      { "id": 9, "nombre": "Restos orgánicos" },
+      { "id": 10, "nombre": "Cinta adhesiva" },
+      { "id": 11, "nombre": "Cajón de frutas" },
+      { "id": 12, "nombre": "Tapitas plásticas" },
+      { "id": 13, "nombre": "Tela vieja" },
+      { "id": 14, "nombre": "Sorbetes" },
+      { "id": 15, "nombre": "Hilo o elástico" },
+      { "id": 16, "nombre": "Botón" },
+      { "id": 17, "nombre": "Papel decorativo" },
+      { "id": 18, "nombre": "Silicona caliente" },
+      { "id": 19, "nombre": "Mecanismo de reloj" },
+      { "id": 20, "nombre": "Tijeras o cutter" }
+    ],
+    "project_materials": [
+      { "project_id": 1, "material_id": 1 },
+      { "project_id": 2, "material_id": 2 },
+      { "project_id": 2, "material_id": 3 },
+      { "project_id": 3, "material_id": 4 },
+      { "project_id": 3, "material_id": 5 },
+      { "project_id": 4, "material_id": 6 },
+      { "project_id": 4, "material_id": 7 },
+      { "project_id": 5, "material_id": 8 },
+      { "project_id": 5, "material_id": 9 },
+      { "project_id": 6, "material_id": 7 },
+      { "project_id": 6, "material_id": 10 },
+      { "project_id": 7, "material_id": 2 },
+      { "project_id": 7, "material_id": 5 },
+      { "project_id": 8, "material_id": 11 },
+      { "project_id": 9, "material_id": 1 },
+      { "project_id": 10, "material_id": 4 },
+      { "project_id": 10, "material_id": 19 },
+      { "project_id": 11, "material_id": 7 },
+      { "project_id": 11, "material_id": 18 },
+      { "project_id": 12, "material_id": 1 },
+      { "project_id": 13, "material_id": 12 },
+      { "project_id": 13, "material_id": 15 },
+      { "project_id": 14, "material_id": 1 },
+      { "project_id": 14, "material_id": 20 },
+      { "project_id": 15, "material_id": 14 },
+      { "project_id": 15, "material_id": 3 },
+      { "project_id": 16, "material_id": 3 },
+      { "project_id": 17, "material_id": 12 },
+      { "project_id": 17, "material_id": 16 },
+      { "project_id": 18, "material_id": 13 },
+      { "project_id": 19, "material_id": 12 },
+      { "project_id": 19, "material_id": 15 },
+      { "project_id": 20, "material_id": 7 },
+      { "project_id": 20, "material_id": 17 }
+    ]
+  }
+  
