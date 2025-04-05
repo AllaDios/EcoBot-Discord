@@ -9,7 +9,6 @@ class Tips(commands.Cog):
         self.consejos = self.cargar_consejos()
 
     def cargar_consejos(self):
-        """Carga los consejos desde el archivo JSON al iniciar el cog."""
         try:
             with open("data/consejos.json", "r", encoding="utf-8") as file:
                 return json.load(file)
@@ -23,7 +22,6 @@ class Tips(commands.Cog):
         aliases=["consejo"]
     )
     async def tips(self, ctx, categoria: str = None):
-        """Envia un consejo aleatorio o de una categoría específica."""
         if not self.consejos:
             await ctx.send("⚠️ No se encontraron consejos en la base de datos.")
             return
