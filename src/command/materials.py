@@ -4,7 +4,7 @@ import json
 from discord.ext import commands
 
 class Materials(commands.Cog):
-    def __init__(self, bot):
+    def _init_(self, bot):
         self.bot = bot
         self.materiales = self.cargar_materiales()
 
@@ -18,38 +18,38 @@ class Materials(commands.Cog):
 
     @commands.command(
         name="materiales",
-        help="Muestra un proyecto aleatorio o a partir de materiales específicos.\nCategorías disponibles: orgánicos, reciclables, reutilizables",
+        help="Muestra ideas de materiales o qué materiales están disponibles",
         aliases=["material"]
     )
-    async def tips(self, ctx, categoria: str = None):
+    async def materials(self, ctx, *, material: str = None):
         if not self.materiales:
             await ctx.send("⚠️ No se encontraron materiales en la base de datos.")
             return
 
-        if categoria:
-            categoria = categoria.lower()
-            if categoria in self.materiales:
-                idea = random.choice(self.materiales[categoria])
+        if material:
+            material = material.lower()
+            if material in self.materiales:
+                idea = random.choice(self.materiales[material])
                 embed = discord.Embed(
-                    title=f"💡 Idea con {categoria.capitalize()}",
+                    title=f"💡 Idea con {material.capitalize()}",
                     description=idea,
                     color=discord.Color.green()
                 )
             else:
-                categorias_disponibles = ", ".join(self.materiales.keys())
+                disponibles = ", ".join(f"{k}" for k in self.materiales.keys())
                 embed = discord.Embed(
-                    title="🚫 Material no encontrado",
-                    description=f"Los materiales disponibles son: `{categorias_disponibles}`",
+                    title="❌ Material no encontrado",
+                    description=f"El material *{material}* no está en la base de datos.\n\n📦 *Materiales disponibles:*\n{disponibles}",
                     color=discord.Color.red()
                 )
         else:
-            categoria_random = random.choice(list(self.materiales.keys()))
-            idea = random.choice(self.materiales[categoria_random])
+            disponibles = ", ".join(f"{k}" for k in self.materiales.keys())
             embed = discord.Embed(
-                title=f"💡 Idea con {categoria_random.capitalize()}",
-                description=idea,
-                color=discord.Color.green()
+                title="📦 Materiales disponibles",
+                description=disponibles,
+                color=discord.Color.blue()
             )
+            embed.set_footer(text="Usa el comando !materiales <material> para ver una idea con ese material.")
 
         embed.set_footer(text="¡Convierte tus residuos en recursos! ♻️")
         await ctx.send(embed=embed)
